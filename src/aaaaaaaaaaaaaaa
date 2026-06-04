@@ -1,0 +1,139 @@
+> catalogo@0.1.0 dev
+> set NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3001
+
+- ready started server on 0.0.0.0:3001, url: http://localhost:3001
+<w> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: {auto}/static/chunks/mf-manifest.json 
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: /_next/mf-manifest.json 
+- event compiled client and server successfully in 3.8s (563 modules)
+- wait compiling...
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: {auto}/static/chunks/mf-manifest.json 
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: /_next/mf-manifest.json 
+- event compiled client and server successfully in 733 ms (563 modules)
+- wait compiling / (client and server)...
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: {auto}/static/chunks/mf-manifest.json 
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: /_next/mf-manifest.json 
+- event compiled client and server successfully in 632 ms (567 modules)
+- error Error: Cannot find module './updateOptions.js'
+Require stack:
+- ..\catalogo\.next\server\webpack-runtime.js
+- ..\catalogo\.next\server\pages\_document.js
+- ..\catalogo\node_modules\next\dist\server\require.js
+- ..\catalogo\node_modules\next\dist\server\next-server.js
+- ..\catalogo\node_modules\next\dist\server\dev\next-dev-server.js
+- ..\catalogo\node_modules\next\dist\server\next.js
+- ..\catalogo\node_modules\next\dist\server\lib\render-server.js
+- ..\catalogo\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at ..\catalogo\node_modules\next\dist\server\require-hook.js:188:36
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at eval (webpack-internal:///./node_modules/@module-federation/webpack-bundler-runtime/dist/installInitialConsumes.js:12:24)
+    at ./node_modules/@module-federation/webpack-bundler-runtime/dist/installInitialConsumes.js (..\catalogo\.next\server\webpack-runtime.js:883:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at eval (webpack-internal:///./node_modules/@module-federation/webpack-bundler-runtime/dist/index.js:15:84)
+    at ./node_modules/@module-federation/webpack-bundler-runtime/dist/index.js (..\catalogo\.next\server\webpack-runtime.js:839:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at eval (webpack-internal:///./node_modules/@module-federation/webpack-bundler-runtime/dist/bundler.js:12:67)
+    at ./node_modules/@module-federation/webpack-bundler-runtime/dist/bundler.js (..\catalogo\.next\server\webpack-runtime.js:762:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at eval (webpack-internal:///./node_modules/.federation/entry.1f73fabad17deb3e3f8d24a94f42b9b9.js:2:192)
+    at ./node_modules/.federation/entry.1f73fabad17deb3e3f8d24a94f42b9b9.js (..\catalogo\.next\server\webpack-runtime.js:19:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at __webpack_require__.x (..\catalogo\.next\server\webpack-runtime.js:1295:15)
+    at __webpack_require__.x (..\catalogo\.next\server\webpack-runtime.js:1378:15)
+    at ..\catalogo\.next\server\webpack-runtime.js:1394:31
+    at Object.<anonymous> (..\catalogo\.next\server\webpack-runtime.js:1396:12)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at ..\catalogo\.next\server\pages\_document.js:645:27
+    at Object.<anonymous> (..\catalogo\.next\server\pages\_document.js:664:3)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at requirePage (..\catalogo\node_modules\next\dist\server\require.js:156:12)
+    at ..\catalogo\node_modules\next\dist\server\load-components.js:64:65
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (..\catalogo\node_modules\next\dist\server\load-components.js:63:33)
+    at async DevServer.findPageComponentsImpl (..\catalogo\node_modules\next\dist\server\next-server.js:762:36) {
+  digest: undefined
+}
+- wait compiling /_error (client and server)...
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: {auto}/static/chunks/mf-manifest.json 
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: /_next/mf-manifest.json 
+- event compiled client and server successfully in 470 ms (569 modules)
+Error: Cannot find module './updateOptions.js'
+Require stack:
+- ..\catalogo\.next\server\webpack-runtime.js
+- ..\catalogo\.next\server\pages\_document.js
+- ..\catalogo\node_modules\next\dist\server\require.js
+- ..\catalogo\node_modules\next\dist\server\next-server.js
+- ..\catalogo\node_modules\next\dist\server\dev\next-dev-server.js
+- ..\catalogo\node_modules\next\dist\server\next.js
+- ..\catalogo\node_modules\next\dist\server\lib\render-server.js
+- ..\catalogo\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at ..\catalogo\node_modules\next\dist\server\require-hook.js:188:36
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at eval (webpack-internal:///./node_modules/@module-federation/webpack-bundler-runtime/dist/installInitialConsumes.js:12:24)
+    at ./node_modules/@module-federation/webpack-bundler-runtime/dist/installInitialConsumes.js (..\catalogo\.next\server\webpack-runtime.js:883:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at eval (webpack-internal:///./node_modules/@module-federation/webpack-bundler-runtime/dist/index.js:15:84)
+    at ./node_modules/@module-federation/webpack-bundler-runtime/dist/index.js (..\catalogo\.next\server\webpack-runtime.js:839:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at eval (webpack-internal:///./node_modules/@module-federation/webpack-bundler-runtime/dist/bundler.js:12:67)
+    at ./node_modules/@module-federation/webpack-bundler-runtime/dist/bundler.js (..\catalogo\.next\server\webpack-runtime.js:762:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at eval (webpack-internal:///./node_modules/.federation/entry.1f73fabad17deb3e3f8d24a94f42b9b9.js:2:192)
+    at ./node_modules/.federation/entry.1f73fabad17deb3e3f8d24a94f42b9b9.js (..\catalogo\.next\server\webpack-runtime.js:19:1)
+    at __webpack_require__ (..\catalogo\.next\server\webpack-runtime.js:940:33)
+    at __webpack_require__.x (..\catalogo\.next\server\webpack-runtime.js:1298:15)
+    at __webpack_require__.x (..\catalogo\.next\server\webpack-runtime.js:1381:15)
+    at ..\catalogo\.next\server\webpack-runtime.js:1397:31
+    at Object.<anonymous> (..\catalogo\.next\server\webpack-runtime.js:1399:12)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at ..\catalogo\.next\server\pages\_document.js:645:27
+    at Object.<anonymous> (..\catalogo\.next\server\pages\_document.js:664:3)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at requirePage (..\catalogo\node_modules\next\dist\server\require.js:156:12)
+    at ..\catalogo\node_modules\next\dist\server\load-components.js:64:65
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (..\catalogo\node_modules\next\dist\server\load-components.js:63:33)
+    at async DevServer.findPageComponentsImpl (..\catalogo\node_modules\next\dist\server\next-server.js:762:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '..\\ebac-micro-front-ends\\catalogo\\.next\\server\\webpack-runtime.js',
+    '..\\ebac-micro-front-ends\\catalogo\\.next\\server\\pages\\_document.js',
+    '..\\ebac-micro-front-ends\\catalogo\\node_modules\\next\\dist\\server\\require.js',
+    '..\\ebac-micro-front-ends\\catalogo\\node_modules\\next\\dist\\server\\next-server.js',
+    '..\\ebac-micro-front-ends\\catalogo\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js',
+    '..\\ebac-micro-front-ends\\catalogo\\node_modules\\next\\dist\\server\\next.js',
+    '..\\ebac-micro-front-ends\\catalogo\\node_modules\\next\\dist\\server\\lib\\render-server.js',
+    '..\\ebac-micro-front-ends\\catalogo\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+<w> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'
+<i> [Module Federation Manifest Plugin] [ Module Federation Manifest Plugin ] Manifest Link: {auto}/static/chunks/mf-manifest.json 
+
