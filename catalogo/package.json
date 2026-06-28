@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "^8.8.67",
-    "next": "^13.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "webpack": "^5.107.2"
+    "@module-federation/nextjs-mf": "^8.8.41",
+    "next": "^15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "webpack": "^5.101.1"
   },
   "devDependencies": {
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^6.0.1"
   }
 }
