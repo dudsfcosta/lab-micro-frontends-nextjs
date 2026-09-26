@@ -1,4 +1,4 @@
-🧩 Lab — Micro-frontends com Next.js
+# 🧩 Lab — Micro-frontends com Next.js
 
 ## 📖 Sobre
 
