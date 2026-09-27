@@ -5,7 +5,7 @@ import Nav from "../components/Nav"
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 
-const CatalogComponent = dynamic(()=> import("shop/catalog"))
+const CatalogComponent = dynamic(()=> import("shop/catalog"), { ssr: false })
 
 
 export default function Home() {
